@@ -1,6 +1,7 @@
 body{ 
-    background-color: rgb(106, 184, 180);
-    border: rgb(45, 45, 128);
+    background-color: rgb(141, 183, 162);
+    border: rgb(58, 58, 139);
+    border-width: thick;
 }
 h1{
     text-decoration: underline;
@@ -11,19 +12,22 @@ h1{
 h2{
     text-align: center;
     color: black;
-    font-family: 'Lucida Sans'
+    font-family: 'Lucida Sans';
 }
 p{
     text-align: center;
     color: black;
-    font-family: 'Lucida Sans'
+    font-family: 'Lucida Sans';
 }
 header{
     text-align: center;
-    color: rgb(18, 8, 78);
-    font-family: 'Lucida Sans'
+    color: rgb(45, 27, 145);
+    font-family: 'Lucida Sans';
 }
 footer{    text-align: center;
     color: black;
-    font-family: 'Lucida Sans'
+    font-family: 'Lucida Sans';
+}
+nav{
+    text-align: center;
 }
