@@ -1,8 +1,11 @@
 body{ 
-    background:linear-gradient(to right, rgb(19, 161, 161), rgb(17, 47, 168)) ;
-    border: rgb(58, 58, 139);
+    background-image:url('marita-kavelashvili-ugnrXk1129g-unsplash.jpg');
     border-width: 1em;
+    border-style: double;
     text-align: center;
+    background-position: center;
+    background-size: contain;
+
 }
 h1{
     text-decoration: dashed underline overline hsl(0, 0%, 80%);
@@ -11,9 +14,6 @@ h1{
     font-family: serif;
     text-shadow: 1em;
 }
-
-
-
 nav{
     padding: 2em;
     text-align: center;
@@ -40,20 +40,24 @@ header{
     text-align: center;
     color: hsl(0, 0%, 80%);
     font-family: serif;
+    background-color: black;
+    opacity: .6;
 }
 h2{
     text-align: center;
-    color: hsl(0, 0%, 80%);
+    color: black;
     font-family: serif;
 }
 p{
     text-align: center;
-    color: hsl(0, 0%, 80%);
+    color: black;
     font-family: serif;
 }
 footer{    text-align: center;
-    color: hsl(0, 0%, 80%);
+    color: hsl(0, 0%, 0%);
     font-family: serif;
+    background-color: black;
+    opacity: .6;
 }
 li{
     display:inline-block;
@@ -61,4 +65,18 @@ li{
     padding: .5em 1em;
     color: hsl(0, 0%, 80%);
     list-style: square hsl(0, 0%, 80%);
+}
+.media{
+    background: rgb(2, 79, 62) ;
+    border: 2px solid White;
+    cursor: grab;
+    padding: .5em 1em ;
+    border-radius: .5em;
+    color:white;
+    text-decoration: none;
+    box-shadow: 0 0 8px black;
+}
+img{
+    padding: .5em 1em;
+
 }
