@@ -9,6 +9,7 @@ h1{
     text-align: center;
     color: hsl(0, 0%, 80%);
     font-family: serif;
+    text-shadow: 1em;
 }
 
 
@@ -37,20 +38,27 @@ nav{
 }
 header{
     text-align: center;
-    color: black;
+    color: hsl(0, 0%, 80%);
     font-family: serif;
 }
 h2{
     text-align: center;
-    color: black;
-    font-family: 'Lucida Sans';
+    color: hsl(0, 0%, 80%);
+    font-family: serif;
 }
 p{
     text-align: center;
-    color: black;
-    font-family: 'Lucida Sans';
+    color: hsl(0, 0%, 80%);
+    font-family: serif;
 }
 footer{    text-align: center;
-    color: black;
-    font-family: 'Lucida Sans';
+    color: hsl(0, 0%, 80%);
+    font-family: serif;
+}
+li{
+    display:inline-block;
+    text-align: left;
+    padding: .5em 1em;
+    color: hsl(0, 0%, 80%);
+    list-style: square hsl(0, 0%, 80%);
 }
