@@ -4,21 +4,28 @@ body{
     border-style: double;
     text-align: center;
     background-position: center;
-    background-size: contain;
-
+    background-size: cover;
+    border-color:rgb(3, 55, 3);
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.3);
+    padding: 2em;
 }
+
 h1{
-    text-decoration: dashed underline overline hsl(0, 0%, 80%);
+    text-decoration: underline overline rgb(2, 79, 62); 
     text-align: center;
-    color: hsl(0, 0%, 80%);
+    color: rgb(2, 79, 62); 
     font-family: serif;
     text-shadow: 1em;
 }
+
 nav{
     padding: 2em;
     text-align: center;
     ;
 }
+
+/*buttons in header and footer*/
 .btn
 {
     background: rgb(2, 79, 62) ;
@@ -29,6 +36,7 @@ nav{
     color:white;
     text-decoration: none;
     
+    
 }
 .btn:hover, .btn:focus{
     background-color: rgb(64, 41, 84);
@@ -36,47 +44,83 @@ nav{
     padding: .5em 1em ;
     border: 2px solid White;
 }
-header{
+
+header, footer{
     text-align: center;
     color: hsl(0, 0%, 80%);
     font-family: serif;
     background-color: black;
     opacity: .6;
+    padding: 1em;
 }
+
 h2{
     text-align: center;
     color: black;
     font-family: serif;
 }
+
 p{
     text-align: center;
     color: black;
     font-family: serif;
 }
-footer{    text-align: center;
-    color: hsl(0, 0%, 0%);
-    font-family: serif;
-    background-color: black;
-    opacity: .6;
-}
+
 li{
     display:inline-block;
     text-align: left;
     padding: .5em 1em;
-    color: hsl(0, 0%, 80%);
-    list-style: square hsl(0, 0%, 80%);
+    color: black;
 }
-.media{
-    background: rgb(2, 79, 62) ;
-    border: 2px solid White;
-    cursor: grab;
+.icon, .btn{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+
+}
+h5{
+    color:hsl(0, 0%, 80%) ;
+}
+section{ 
+    border-style: none;
+    background-color: hsl(0, 0%, 80%, .5);
+
+    
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        ".."
+        "..";
+    gap: 30px 30px; 
+}
+.footer{
+    padding: 30px;
+}
+.box2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 5vw);
+    grid-template-areas: 
+        ".."
+        "..";
+    gap: 5px 5px;
+    object-fit: cover;
+    vertical-align: middle;    
     padding: .5em 1em ;
-    border-radius: .5em;
-    color:white;
-    text-decoration: none;
-    box-shadow: 0 0 8px black;
+    }    
+.sec1{
+ float: left;
+ 
+}
+.img2{
+
+    height: 75%;
+    width: 75%;
+
 }
 img{
-    padding: .5em 1em;
-
+    padding: 10px 10px;
 }
