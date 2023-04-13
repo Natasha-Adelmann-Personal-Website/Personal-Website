@@ -75,8 +75,9 @@ li{
 .icon, .btn{
     margin-left: auto;
     margin-right: auto;
+}
+.icon{
     width: 40px;
-
 }
 h5{
     color:hsl(0, 0%, 80%) ;
@@ -107,8 +108,7 @@ section{
         ".."
         "..";
     gap: 5px 5px;
-    object-fit: cover;
-    vertical-align: middle;    
+    object-fit: cover;   
     padding: .5em 1em ;
     }    
 .sec1{
@@ -123,4 +123,11 @@ section{
 }
 img{
     padding: 10px 10px;
+}
+form{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    gap: 5px 5px;  
+    padding: .5em 1em ;
 }
