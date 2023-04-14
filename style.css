@@ -16,7 +16,6 @@ h1{
     text-align: center;
     color: rgb(2, 79, 62); 
     font-family: serif;
-    text-shadow: 1em;
 }
 
 nav{
@@ -75,11 +74,15 @@ li{
 .icon, .btn{
     margin-left: auto;
     margin-right: auto;
+}
+.icon{
     width: 40px;
-
 }
 h5{
     color:hsl(0, 0%, 80%) ;
+}
+h4{
+    color: black;
 }
 section{ 
     border-style: none;
@@ -101,14 +104,13 @@ section{
 }
 .box2{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 5vw);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 2fr);
     grid-template-areas: 
         ".."
         "..";
     gap: 5px 5px;
-    object-fit: cover;
-    vertical-align: middle;    
+    object-fit: cover;   
     padding: .5em 1em ;
     }    
 .sec1{
@@ -123,4 +125,43 @@ section{
 }
 img{
     padding: 10px 10px;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px 5px;  
+    padding: .5em 1em ;
+    font-family: serif;
+    
+}
+.indexflex{
+    display: flex;
+    align-content: flex-start;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding: 2vw;
+    border-style: none;
+    background-color: hsl(0, 0%, 80%, .5);
+}
+.indextext{
+    margin-top: 10vw;
+}
+@media screen and (max-width:480px){
+    .box, .box2{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px 5px;  
+
+    }
+    .container-nav, .indexflex, .indextext{
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+
+}
+.gardening{
+    height: 60%;
+    width: 70%;
 }
