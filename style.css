@@ -81,6 +81,9 @@ li{
 h5{
     color:hsl(0, 0%, 80%) ;
 }
+h4{
+    color: black;
+}
 section{ 
     border-style: none;
     background-color: hsl(0, 0%, 80%, .5);
@@ -129,6 +132,7 @@ form{
     gap: 5px 5px;  
     padding: .5em 1em ;
     font-family: serif;
+    
 }
 .indexflex{
     display: flex;
@@ -141,4 +145,23 @@ form{
 }
 .indextext{
     margin-top: 10vw;
+}
+@media screen and (max-width:480px){
+    .box, .box2{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px 5px;  
+
+    }
+    .container-nav, .indexflex, .indextext{
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+
+}
+.gardening{
+    height: 60%;
+    width: 70%;
 }
